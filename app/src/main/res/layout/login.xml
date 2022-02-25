@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="_Login here_"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/loginf"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:civ_border_color="#f556"
+        app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:hint="User Name"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:textSize="20dp"
+                android:id="@+id/loginet1"></EditText>
+
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:hint="Password"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_password_svgrepo_com"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/loginet2"></EditText>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rotate"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:layout_marginTop="25dp"
+                android:textColor="#fff"
+                android:id="@+id/btnlogin"></Button>
+
+
+
+
+
+</LinearLayout>

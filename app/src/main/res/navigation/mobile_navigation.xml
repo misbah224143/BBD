@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bbd.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.bbd.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.bbd.About"
+        android:label="about"
+        tools:layout="@layout/about" />
+    <fragment
+        android:id="@+id/nav_enquiry"
+        android:name="com.example.bbd.Enquiry"
+        android:label="enquiry"
+        tools:layout="@layout/enquiry" />
+
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.example.bbd.Registration"
+        android:label="registration"
+        tools:layout="@layout/registration" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.bbd.Login"
+        android:label="login"
+        tools:layout="@layout/login" />
+
+    <fragment
+        android:id="@+id/nav_referus"
+        android:name="com.example.bbd.referus"
+        android:label="referus"
+        tools:layout="@layout/referus" />
+
+    <fragment
+        android:id="@+id/nav_review"
+        android:name="com.example.bbd.Review"
+        android:label="review"
+        tools:layout="@layout/review" />
+    <fragment
+        android:id="@+id/nav_faculty"
+        android:name="com.example.bbd.Facuilty"
+        android:label="faculty"
+        tools:layout="@layout/faculty" />
+
+</navigation>

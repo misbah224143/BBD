@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="_About Us_"
+       android:textSize="30dp"
+       android:layout_marginTop="10dp"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:padding="10dp"></TextView>
+<<<<<<< HEAD
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:src="@drawable/bbdniit"></ImageView>
+=======
+>>>>>>> origin/master
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="30dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:paddingTop="16dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+<<<<<<< HEAD
+                  android:padding="20dp"
+                  android:text="This institute is situated in Lucknow and it is a private institute that is established in the year 2002. This campus is approved by AICTE, accredited by NBA and NAAC, and affiliated by Dr. A.P.J Abdul Kalam Technical University, Lucknow.\n
+
+
+The institute is formerly known as Northern Indian Engineering College. The aim of the institute is to empower the young minds.\n
+
+This institute is spread across over 200 acres of land with many facilities such as library, laboratories and hostel.\n
+
+The institute offers 4 departments through which it provides undergraduate, postgraduate and diploma courses.\n
+
+The admission in this institute is done through both merit and entrance test such as B.ED JEE, JEE, GATE, UPSEE and more.\n\n
+
+Below is a list of top departments under the University-\n\n
+
+Department of Engineering\n
+Department of Humanities\n
+Department of Pharmacy\n
+Department of Management\n
+Hostel and Facilities\n\n
+Hostel facilities:
+The institute provides hostel for boys and girls. The hostels have free Wi-Fi connection. The hostel has all the modern facilities. There are separate common rooms for reading books and watching TV.
+Campus Facilities:\n\n
+The institute provides transportation facilities. The Library of the institute has all the materials including books, references, and journals for the students.\n\n
+
+There is a sports ground in the institute as well as different courts for cricket, football etc. Indoor games like Shuttle, Chess are also encouraged. The Canteen provides vegetarian and non-vegetarian food and snacks. The institute also has an ATM, a café coffee day outlet, and gym facility for the students.
+
+"
+                  android:gravity="center"
+                  ></TextView>
+          </LinearLayout>
+=======
+                  android:text="Babu Banarasi Das Ji, a born nationalist, in his early youth, joined hands with Mahatma Gandhi and Jawahar Lal Nehru in the movement to free India from the clutches of British rule.
+
+During his long political career, he worked as a Minister, Speaker and Member of Parliament (both Lok Sabha and Rajya Sabha). He also held the position of the Chief Minister of Uttar Pradesh. His entire life was devoted to secure the dignity of individuals through selfless service to mankind. He was a humanitarian who enabled people to realize their goals. He never believed in surrendering to any forces. Even in the face of death, he would not give in. “Man doth not yield himself to angels, not even unto death, utterly, saved, by the weakness of his feeble will.” Babuji always led and inspired people through his own example, leaving behind a legacy for future generations. We are privileged to inherit that legacy and perpetuate his memory."
+                  android:gravity="center"
+                  ></TextView>
+          </LinearLayout>
+
+
+
+
+
+
+
+>>>>>>> origin/master
+      </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

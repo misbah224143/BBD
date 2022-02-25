@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:text="_Review Here_"
+        android:textColor="#E64F4F50"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:background="@drawable/box"
+                android:id="@+id/ed1"
+                android:hint="Enter Your Name"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:layout_width="315dp"
+                android:layout_height="45dp"
+                android:id="@+id/ed2"
+                android:hint="Enter Your Gmail"
+                android:background="@drawable/box"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textEmailAddress"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ed3"
+                android:drawableLeft="@drawable/ic_baseline_feedback_24"
+                android:hint="Give Your Feedback"
+                android:background="@drawable/box"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:inputType="textImeMultiLine"></EditText>
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv1"
+                android:rating="4.5"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"></RatingBar>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:text="Submit"
+                android:id="@+id/btnrev"
+                android:layout_gravity="center"
+                android:textColor="#ffff"
+                android:background="@drawable/rotate"
+                android:layout_marginTop="20dp"></Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
